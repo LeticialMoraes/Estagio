@@ -1,0 +1,9 @@
+begin;
+
+create table estagio (
+	id serial primary key,
+	nome_candidato varchar(100) not null,
+	nota_recebida numeric(3,2) not null,
+	aprovado boolean not null
+);
+commit;
